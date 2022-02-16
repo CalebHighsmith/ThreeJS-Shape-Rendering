@@ -55,7 +55,6 @@ Array(200).fill().forEach(addParticle);
 
 //Setting the background
 const austinTexture = new THREE.TextureLoader().load('city-of-austin-skyline.jpg')
-scene.background = austinTexture;
 
 function animate(){
   requestAnimationFrame(animate);
